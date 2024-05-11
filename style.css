@@ -1,0 +1,88 @@
+/*Width*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+/*Track*/
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+} 
+/*Scrollbar*/
+::-webkit-scrollbar-thumb{
+    background: #888888;
+}
+/*Hover2*/
+::-webkit-scrollbar-thumb:hover{
+    background: #555555;
+}
+
+::selection{
+    background: #B8FCFF;
+    color: #FFFFFF;
+}
+::-moz-selection{
+    background: #B8FCFF;
+    color: #FFFFFF;
+}
+::-webkit-selection{
+    background: #B8FCFF;
+    color: #FFFFFF;
+}
+
+/*asdf*/
+*{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+html{
+    background: #0F0F0F;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #1E1E1E;
+    display: flex;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+nav a{
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+}
+
+nav p{
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    background-color: #ffffff17;
+}
+
+section{
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+footer{
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
